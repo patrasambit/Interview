@@ -7,6 +7,7 @@ public class Stock {
             else if(price[i] - buy > max)
                 max = price[i] - buy;
         }
+
         return max;
     }
     public static void main(String[] args) {
